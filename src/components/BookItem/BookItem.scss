@@ -1,0 +1,45 @@
+// src/components/BookItem/BookItem.scss
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #eee;
+
+  .book-info {
+    h3 {
+      margin: 0;
+      color: #333;
+    }
+    p {
+      margin: 0.2rem 0;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .status {
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+      
+      &.read { background: #d4edda; color: #155724; }
+      &.unread { background: #fff3cd; color: #856404; }
+    }
+  }
+
+  .btn-delete {
+    background: transparent;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    &:hover {
+      background: #e74c3c;
+      color: white;
+    }
+  }
+}

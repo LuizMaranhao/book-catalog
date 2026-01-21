@@ -1,0 +1,23 @@
+// src/components/BookList/BookList.scss
+.book-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  
+  .title {
+    color: #ffffff; // Título branco no fundo geral escuro
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+  }
+
+  .loading-text, .empty-text {
+    color: #ccc;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .book-list {
+    padding: 0;
+    list-style: none;
+  }
+}
